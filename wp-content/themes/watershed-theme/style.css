@@ -4,3 +4,102 @@ Author: William Jurreit
 Description: DGL233 Project 3 Theme
 Version: 1.0
 */
+
+/*GLOBAL STYLES*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f5f5f5;
+}
+
+/*HEADER*/
+
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+}
+
+.site-title a {
+  text-decoration: none;
+  color: #1b4332;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main-navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.main-navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.main-navigation a:hover {
+  color: #2d6a4f;
+}
+
+/*HERO SECTION*/
+
+.hero {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1b4332;
+}
+
+.hero__text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/*FOOTER*/
+
+.site-footer {
+  background-color: #1b4332;
+  color: white;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.footer-navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-navigation a:hover {
+  text-decoration: underline;
+}
