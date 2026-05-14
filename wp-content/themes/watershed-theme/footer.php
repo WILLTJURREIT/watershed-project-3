@@ -9,6 +9,18 @@
     </nav>
 
     <p>&copy; <?php echo date('Y'); ?> Watershed Sentinel</p>
+    
+ <div class="footer-socials">
+
+    <a href="#">Facebook</a>
+
+    <a href="#">Instagram</a>
+
+    <a href="#">Twitter</a>
+
+    <a href="#">YouTube</a>
+
+</div>
 
 </footer>
 

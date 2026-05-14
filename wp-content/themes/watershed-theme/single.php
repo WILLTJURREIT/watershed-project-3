@@ -19,7 +19,9 @@
                     <?php the_content(); ?>
                 </div>
 
-            </article>
+                <a class="post-card__button" href="<?php echo esc_url(home_url('/?page_id=9')); ?>">
+                    Back to Articles
+                </a>
 
         <?php endwhile; ?>
     <?php endif; ?>

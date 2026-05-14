@@ -259,6 +259,28 @@ body {
   margin-bottom: 2rem;
 }
 
+/* CTA section */
+
+.cta-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background: #1b4332;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.cta-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-text {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
 /*FOOTER*/
 
 .site-footer {
@@ -266,6 +288,10 @@ body {
   color: white;
   padding: 2rem;
   margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .footer-navigation ul {
@@ -281,6 +307,22 @@ body {
 }
 
 .footer-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-socials a,
+.footer-navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-socials a:hover {
   text-decoration: underline;
 }
 
@@ -318,5 +360,33 @@ body {
 
   .single-post__title {
     font-size: 2rem;
+  }
+
+  .cta-section {
+    padding: 2rem 1.5rem;
+    margin: 3rem 1rem;
+  }
+
+  .cta-title {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+  }
+
+  .cta-section .post-card__button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-socials {
+    flex-wrap: wrap;
   }
 }
