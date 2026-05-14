@@ -102,6 +102,17 @@ body {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card__content {
+  padding: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .post-card__image {
@@ -110,21 +121,30 @@ body {
   object-fit: cover;
   display: block;
 }
+.post-card__title {
+  margin-bottom: 0.8rem;
+}
 
-.post-card__title,
-.post-card__date,
-.post-card__excerpt,
-.post-card__button {
-  margin: 1rem;
+.post-card__date {
+  margin-bottom: 1rem;
+  color: #777;
+}
+
+.post-card__excerpt {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
 
 .post-card__button {
   display: inline-block;
+  align-self: flex-start;
+  margin-top: auto;
   background: #1b4332;
   color: #fff;
   padding: 0.7rem 1rem;
   border-radius: 6px;
   text-decoration: none;
+  margin-top: auto;
 }
 
 /* Single-post*/
@@ -156,6 +176,14 @@ body {
 .single-post__content p {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
+}
+
+.archive-page h1 {
+  margin-bottom: 1rem;
+}
+
+.archive-page p {
+  margin-bottom: 1rem;
 }
 
 /*FOOTER*/

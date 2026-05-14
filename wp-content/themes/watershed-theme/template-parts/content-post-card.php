@@ -6,11 +6,14 @@
         </a>
     <?php endif; ?>
 
-    <h2 class="post-card__title">
-        <a href="<?php the_permalink(); ?>">
-            <?php the_title(); ?>
-        </a>
-    </h2>
+
+<div class="post-card__content">
+
+        <h2 class="post-card__title">
+            <a href="<?php the_permalink(); ?>">
+                <?php the_title(); ?>
+            </a>
+        </h2>
 
     <p class="post-card__date">
         <?php echo get_the_date(); ?>
@@ -23,5 +26,7 @@
     <a class="post-card__button" href="<?php the_permalink(); ?>">
         Read More
     </a>
+
+     </div>
 
 </article>

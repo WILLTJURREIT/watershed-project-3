@@ -16,7 +16,7 @@ function watershed_register_issue_cpt() {
         'public' => true,
         'has_archive' => true,
         'menu_icon' => 'dashicons-media-document',
-        'supports' => array('title', 'editor', 'thumbnail'),
+        'supports' => array('title', 'editor', 'thumbnail','excerpt'),
         'rewrite' => array('slug' => 'issues'),
         'show_in_rest' => true
     );
